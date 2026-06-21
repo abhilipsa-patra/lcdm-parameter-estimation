@@ -4,6 +4,12 @@
 
 This project constrains cosmological parameters of the ΛCDM model using late-time cosmological probes.
 
+## Research Background
+
+This work was completed during the DSKC Summer Internship Programme 2025.
+
+The objective was to constrain ΛCDM cosmological parameters using observational datasets and Bayesian parameter estimation techniques.
+
 ## Datasets
 
 - Type Ia Supernovae (SNe Ia)
@@ -14,14 +20,14 @@ This project constrains cosmological parameters of the ΛCDM model using late-ti
 ## Methodology
 
 - Chi-square minimization
-- Bayesian inference
-- MCMC sampling using emcee
+- Bayesian Inference
+- MCMC Sampling using emcee
 
 ## Parameters Estimated
 
-- H₀ (Hubble Constant)
-- Ωₘ (Matter Density Parameter)
-- M (Absolute Magnitude)
+- H₀
+- Ωₘ
+- M
 
 ## Tools Used
 
@@ -33,9 +39,18 @@ This project constrains cosmological parameters of the ΛCDM model using late-ti
 
 ## Results
 
-The obtained constraints are consistent with published literature and support the ΛCDM cosmological model.
+### Corner Plot
 
-## Author
+Posterior distributions and parameter correlations obtained from MCMC sampling.
 
-Abhilipsa Patra
-Incoming MSc Physics Student, IIT Bombay
+![Corner Plot](corner_plots.png)
+
+## Repository Structure
+
+```text
+lcdm-parameter-estimation
+│
+├── lcdm_analysis.ipynb
+├── corner_plots.png
+├── DSKC_SIP2025_Poster.pptx
+└── README.md
