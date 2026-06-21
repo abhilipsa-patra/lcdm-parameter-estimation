@@ -43,7 +43,7 @@ The objective was to constrain ΛCDM cosmological parameters using observational
 
 Posterior distributions and parameter correlations obtained from MCMC sampling.
 
-![Corner Plot](corner_plots.png)
+<img src="corner_plots.png" width="700">
 
 ## Repository Structure
 
